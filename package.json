@@ -1,0 +1,37 @@
+{
+  "name": "exoplanets",
+  "version": "0.2.0",
+  "description": "Exoplanets database with queries",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "parse": "npm run build && node dist/parser.js",
+    "test": "npm run build && node dist/test.js",
+    "start": "npm run build && node dist/index.js"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varvolta/exoplanets.git"
+  },
+  "keywords": [
+    "planets",
+    "moon",
+    "exoplanets",
+    "exo"
+  ],
+  "author": "Vahe Arzumanyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varvolta/exoplanets/issues"
+  },
+  "homepage": "https://github.com/varvolta/exoplanets#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.18"
+  }
+}
