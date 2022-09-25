@@ -1,6 +1,6 @@
 {
   "name": "exoplanets",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Exoplanets database with queries",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,8 @@
     "start": "npm run build && node dist/index.js"
   },
   "files": [
-    "/dist"
+    "/dist",
+    "/data"
   ],
   "repository": {
     "type": "git",
